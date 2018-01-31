@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 class Hero extends Component{
     
     render(){
+        console.log(this.props.blog)
         const blog = this.props.blog;
         return(
             <Link to={`/blog/${blog.id}`}>
